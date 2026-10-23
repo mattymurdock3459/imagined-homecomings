@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18272e">
+  <meta name="description" content="Imagined Homecomings: an exploration of ten songs about the First World War soldier’s return, through original sheet music and commentary.">
+  <title>Imagined Homecomings — Sheet Music and the WWI Soldier’s Return</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to the exhibition</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Imagined Homecomings, back to top"><span class="brand-mark" aria-hidden="true">IH<span>·</span></span><span class="brand-name">Imagined Homecomings</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#songs">The songs</a>
+        <a href="#closing">Closing thoughts</a>
+      </nav>
+      <details class="jump-menu">
+        <summary>Jump to a song <span aria-hidden="true">⌄</span></summary>
+        <ol id="jump-list" class="jump-list"></ol>
+      </details>
+    </div>
+    <div class="reading-progress" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="exhibition-title">
+      <div class="hero-art" aria-hidden="true"><img src="assets/images/reference-homecoming.png" alt="" fetchpriority="high"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">An exhibition in ten songs</p>
+        <h1 id="exhibition-title">Imagined<br><em>Homecomings</em></h1>
+        <p class="hero-subtitle" id="exhibition-subtitle">Sheet Music and the WWI Soldier’s Return</p>
+        <a class="explore-link" href="#about">Start exploring <span aria-hidden="true">↓</span></a>
+      </div>
+      <span class="hero-credit">Since I’ve Come Back to You · cover detail</span>
+    </section>
+
+    <section id="about" class="about-section section-shell" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">The project</p><h2 id="about-title">About this project</h2></div>
+      <div class="about-grid">
+        <article><span class="small-number" aria-hidden="true">I.</span><h3>Overview</h3><div id="about-overview" class="prose"></div></article>
+        <article><span class="small-number" aria-hidden="true">II.</span><h3>Methodology</h3><div id="about-methodology" class="prose"></div></article>
+        <article><span class="small-number" aria-hidden="true">III.</span><h3>Reasoning</h3><div id="about-reasoning" class="prose"></div></article>
+      </div>
+    </section>
+
+    <section id="songs" class="songs-section" aria-labelledby="songs-title">
+      <div class="collection-heading section-shell"><div><p class="eyebrow">The collection</p><h2 id="songs-title">The songs</h2></div><p class="collection-note">Explore the covers, lyrics, and scores.<br><span>Turn the pages at your own pace.</span></p></div>
+      <div id="song-sections"></div>
+    </section>
+
+    <section id="closing" class="closing-section section-shell" aria-labelledby="closing-title">
+      <p class="eyebrow">After the last page</p>
+      <h2 id="closing-title">Closing thoughts</h2>
+      <div id="closing-copy" class="prose"></div>
+      <a class="text-link" href="#songs">Return to the songs <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-inner"><p>Imagined Homecomings<span id="author-credit"></span></p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+
+  <dialog class="reader-dialog" id="reader-dialog" aria-label="Expanded sheet music reader"><div class="dialog-header"><p id="dialog-title">Sheet music</p><button class="close-dialog" type="button">Close <span aria-hidden="true">×</span></button></div><div class="dialog-body"></div></dialog>
+  <noscript><div class="noscript-note section-shell">Enable JavaScript to use the page-by-page readers. The original documents are also available here: <a href="assets/pdfs/civvies.pdf">1. Civvies</a>, <a href="assets/pdfs/khaki-lid.pdf">2. Khaki Lid</a>, <a href="assets/pdfs/make-him-forget.pdf">3. Make Him Forget</a>, <a href="assets/pdfs/make-them-glad.pdf">4. Make Them Glad</a>, <a href="assets/pdfs/old-jobs.pdf">5. Old Jobs</a>, <a href="assets/pdfs/welcome-home.pdf">6. Welcome Home</a>, <a href="assets/pdfs/empty-promise.pdf">7. Empty Promise</a>, <a href="assets/pdfs/doing-for-him.pdf">8. Doing for Him</a>, <a href="assets/pdfs/welcomes-gone.pdf">9. Welcome’s Gone</a>, <a href="assets/pdfs/soldiers-bonus.pdf">10. Soldiers Bonus</a>.</div></noscript>
+</body>
+</html>
